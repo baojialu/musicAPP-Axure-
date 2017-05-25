@@ -1,0 +1,516 @@
+﻿$axure.loadCurrentPage({
+  "url":"搜索.html",
+  "generationDate":new Date(1428321654645.52),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"f564136244e14e9f9e61510bf5cd7e84",
+    "type":"Axure:Page",
+    "name":"搜索",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"cebdd4a87ceb4c2f89c883f6ea93e413",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":130,
+              "y":165},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"04bc64cd130e438589d3bd108bca83d3",
+          "label":"SS",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":10},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onSwipeLeft":{
+              "description":"OnSwipeLeft",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 SS 到 状态2 向左滑动 out 500ms 向左滑动 in 500ms",
+                      "panelsToStates":[{
+                          "panelPath":["04bc64cd130e438589d3bd108bca83d3"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "animateOut":{
+                                "easing":"slideLeft",
+                                "duration":500},
+                              "animateIn":{
+                                "easing":"slideLeft",
+                                "duration":500},
+                              "compress":false}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 (文本框(单行))",
+                      "objectsToFades":[{
+                          "objectPath":["67ccd14b46d6469b955c9a73f69dca4b"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]},
+            "onSwipeRight":{
+              "description":"OnSwipeRight",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 SS 到 状态1 向右滑动 out 500ms 向右滑动 in 500ms",
+                      "panelsToStates":[{
+                          "panelPath":["04bc64cd130e438589d3bd108bca83d3"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "animateOut":{
+                                "easing":"slideRight",
+                                "duration":500},
+                              "animateIn":{
+                                "easing":"slideRight",
+                                "duration":500},
+                              "compress":false}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 (文本框(单行))",
+                      "objectsToFades":[{
+                          "objectPath":["67ccd14b46d6469b955c9a73f69dca4b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"445ac3a213ba42e69b3e4bf0b00effca",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"65eb18c9ffc04769bcc5a7a56cde8c42",
+                  "label":"",
+                  "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":640,
+                      "height":1136}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"33ec677882e446d5b83ac892a5516e5d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":640,
+                          "height":1136}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/搜索/u2.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"9b387839b68c47deb1d44aca45815c34",
+              "label":"状态2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"9c3ae0eda58346498020e23fddfbc0f5",
+                  "label":"",
+                  "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":640,
+                      "height":1136}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"4db55e401abd4bb993a93025cf8ac748",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":640,
+                          "height":1136}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/搜索/u4.png"}},
+{
+                  "id":"fc09011af4d249e79321dce3c8106f7e",
+                  "label":"",
+                  "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":610,
+                      "y":30},
+                    "size":{
+                      "width":30,
+                      "height":70}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 登录",
+                              "target":{
+                                "targetType":"page",
+                                "url":"登录.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"c217ffb2fae34000b54554b7c4a7aa3b",
+                  "label":"",
+                  "parentDynamicPanel":"04bc64cd130e438589d3bd108bca83d3",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":170,
+                      "y":1050},
+                    "size":{
+                      "width":190,
+                      "height":70}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 设置",
+                              "target":{
+                                "targetType":"page",
+                                "url":"设置.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"67ccd14b46d6469b955c9a73f69dca4b",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正黑体简体 Regular', '方正黑体简体'",
+            "fontSize":"20px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x87FFFFFF,
+              "opacity":0.529411792755127},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":100,
+              "y":160},
+            "size":{
+              "width":410,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 (文本框(单行)) = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["67ccd14b46d6469b955c9a73f69dca4b"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 (文本框(单行)) = &quot;今天你想听什么&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["67ccd14b46d6469b955c9a73f69dca4b"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"今天你想听什么",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true},
+{
+          "id":"df6ee3ebca1b4946a95c7e2d418715ba",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":70},
+            "size":{
+              "width":120,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 链接",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"b90fdb16bf6940848584030d2f6153ff",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":205,
+              "y":70},
+            "size":{
+              "width":125,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 推荐",
+                      "target":{
+                        "targetType":"page",
+                        "url":"推荐.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"02a56cc26d8a4a188ce8ac1801e1d3d1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":360,
+              "y":70},
+            "size":{
+              "width":140,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 曲库",
+                      "target":{
+                        "targetType":"page",
+                        "url":"曲库.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"650b3bb5e10f474e98f6cba3bd9c7906",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":220},
+            "size":{
+              "width":230,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 搜索具体页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"搜索具体页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "cebdd4a87ceb4c2f89c883f6ea93e413":{
+      "scriptId":"u0"},
+    "04bc64cd130e438589d3bd108bca83d3":{
+      "scriptId":"u1"},
+    "65eb18c9ffc04769bcc5a7a56cde8c42":{
+      "scriptId":"u2"},
+    "33ec677882e446d5b83ac892a5516e5d":{
+      "scriptId":"u3"},
+    "9c3ae0eda58346498020e23fddfbc0f5":{
+      "scriptId":"u4"},
+    "4db55e401abd4bb993a93025cf8ac748":{
+      "scriptId":"u5"},
+    "fc09011af4d249e79321dce3c8106f7e":{
+      "scriptId":"u6"},
+    "c217ffb2fae34000b54554b7c4a7aa3b":{
+      "scriptId":"u7"},
+    "67ccd14b46d6469b955c9a73f69dca4b":{
+      "scriptId":"u8"},
+    "df6ee3ebca1b4946a95c7e2d418715ba":{
+      "scriptId":"u9"},
+    "b90fdb16bf6940848584030d2f6153ff":{
+      "scriptId":"u10"},
+    "02a56cc26d8a4a188ce8ac1801e1d3d1":{
+      "scriptId":"u11"},
+    "650b3bb5e10f474e98f6cba3bd9c7906":{
+      "scriptId":"u12"}}});

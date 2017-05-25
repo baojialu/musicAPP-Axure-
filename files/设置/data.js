@@ -1,0 +1,427 @@
+﻿$axure.loadCurrentPage({
+  "url":"设置.html",
+  "generationDate":new Date(1428321654726.53),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"26ddc100b5c641e39e137936141e8253",
+    "type":"Axure:Page",
+    "name":"设置",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f1eb99f1314f4f60be60b64f968573f6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":10},
+            "size":{
+              "width":640,
+              "height":1136}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"38d2c8eb535b4a70a249b7337853d11d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":10,
+                  "y":10},
+                "size":{
+                  "width":640,
+                  "height":1136}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/设置/u0.png"}},
+{
+          "id":"eba4ca195dcd433c840bf84f7204d1ea",
+          "label":"1",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":90},
+            "size":{
+              "width":600,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"593061ae09934e62a21ae1774f6b234c",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"f760a913adcc40ab92ade659c41d0477",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"3710a322642048b88c79e02d052c96c9",
+                  "label":"",
+                  "parentDynamicPanel":"eba4ca195dcd433c840bf84f7204d1ea",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":601,
+                      "height":82}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f520cc35521e4957884e143119b31bcb",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"eba4ca195dcd433c840bf84f7204d1ea",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":601,
+                          "height":82}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/设置/u3.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"7fdda860dd7c4515818fb68d109edf84",
+          "label":"2",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":423},
+            "size":{
+              "width":600,
+              "height":77}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"cd72e98192bf4b63a63e274c42dc9e45",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"c0638d3fceef450e9f3fbd3cf5a4abd5",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"c07c7d95a3224a40bfc9292a1062bfa3",
+                  "label":"",
+                  "parentDynamicPanel":"7fdda860dd7c4515818fb68d109edf84",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":600,
+                      "height":78}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"048e7f4b5f5947aeaa6a23ce1914eb2a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"7fdda860dd7c4515818fb68d109edf84",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":600,
+                          "height":78}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/设置/u6.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"407f578e10af46b18fc36255d27b4e7f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":105},
+            "size":{
+              "width":70,
+              "height":55}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 1 到 状态1",
+                      "panelsToStates":[{
+                          "panelPath":["eba4ca195dcd433c840bf84f7204d1ea"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"62d54e5c16fc4831ac3921573e38f5dd",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":436},
+            "size":{
+              "width":70,
+              "height":54}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 2 到 状态1",
+                      "panelsToStates":[{
+                          "panelPath":["7fdda860dd7c4515818fb68d109edf84"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"5b6a27a9632a4419a1a99b5f52ea0319",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":600,
+              "y":460},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 2 到 State1",
+                      "panelsToStates":[{
+                          "panelPath":["7fdda860dd7c4515818fb68d109edf84"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"d497adabe754437faef63d1aa545325f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":610,
+              "y":120},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 1 到 State1",
+                      "panelsToStates":[{
+                          "panelPath":["eba4ca195dcd433c840bf84f7204d1ea"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"c1c94dfbb5cc40f79ccbdb38f2303ef4",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":20},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 搜索",
+                      "target":{
+                        "targetType":"page",
+                        "url":"搜索.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f1eb99f1314f4f60be60b64f968573f6":{
+      "scriptId":"u0"},
+    "38d2c8eb535b4a70a249b7337853d11d":{
+      "scriptId":"u1"},
+    "eba4ca195dcd433c840bf84f7204d1ea":{
+      "scriptId":"u2"},
+    "3710a322642048b88c79e02d052c96c9":{
+      "scriptId":"u3"},
+    "f520cc35521e4957884e143119b31bcb":{
+      "scriptId":"u4"},
+    "7fdda860dd7c4515818fb68d109edf84":{
+      "scriptId":"u5"},
+    "c07c7d95a3224a40bfc9292a1062bfa3":{
+      "scriptId":"u6"},
+    "048e7f4b5f5947aeaa6a23ce1914eb2a":{
+      "scriptId":"u7"},
+    "407f578e10af46b18fc36255d27b4e7f":{
+      "scriptId":"u8"},
+    "62d54e5c16fc4831ac3921573e38f5dd":{
+      "scriptId":"u9"},
+    "5b6a27a9632a4419a1a99b5f52ea0319":{
+      "scriptId":"u10"},
+    "d497adabe754437faef63d1aa545325f":{
+      "scriptId":"u11"},
+    "c1c94dfbb5cc40f79ccbdb38f2303ef4":{
+      "scriptId":"u12"}}});

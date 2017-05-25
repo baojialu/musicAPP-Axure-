@@ -1,0 +1,499 @@
+﻿$axure.loadCurrentPage({
+  "url":"曲库.html",
+  "generationDate":new Date(1428321654570.52),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"b1eee693841e4e14a2e2ecfba2d79253",
+    "type":"Axure:Page",
+    "name":"曲库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1f40d34c8c7d4512ae28bcc287cd1067",
+          "label":"pm",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":138},
+            "size":{
+              "width":640,
+              "height":1008}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onDrag":{
+              "description":"OnDrag",
+              "cases":[{
+                  "description":"用例 1<br> (If area of pm hd 接触到 area of low 和 area of pm hd 接触到 area of tpo)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"IsOver",
+                      "arguments":[{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetRectangles",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["39755e96df78408098667bdda6720b6c"]}]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetRectangles",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["0835400bc912487bb1ecba6ac6b8c1fa"]}]}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"IsOver",
+                      "arguments":[{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetRectangles",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["39755e96df78408098667bdda6720b6c"]}]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetRectangles",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["59a310f6f72a4a3aa27bd52ed978e8b0"]}]}]}},
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 pm hd 沿 y 轴拖动",
+                      "objectsToMoves":[{
+                          "objectPath":["39755e96df78408098667bdda6720b6c"],
+                          "moveInfo":{
+                            "moveType":"dragY",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+}}}]}]},
+{
+                  "description":"用例 2<br> (Else If area of pm hd 未接触 area of tpo)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"fcall",
+                    "functionName":"IsNotOver",
+                    "arguments":[{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["39755e96df78408098667bdda6720b6c"]}]},
+{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["59a310f6f72a4a3aa27bd52ed978e8b0"]}]}]},
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 pm hd 到 (0,0) 弹跳 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["39755e96df78408098667bdda6720b6c"],
+                          "moveInfo":{
+                            "moveType":"location",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]},
+{
+                  "description":"用例 3<br> (Else If area of pm hd 未接触 area of low)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"fcall",
+                    "functionName":"IsNotOver",
+                    "arguments":[{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["39755e96df78408098667bdda6720b6c"]}]},
+{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["0835400bc912487bb1ecba6ac6b8c1fa"]}]}]},
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 pm hd 到 (0,-863) 弹跳 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["39755e96df78408098667bdda6720b6c"],
+                          "moveInfo":{
+                            "moveType":"location",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-863",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]},
+            "onSwipeRight":{
+              "description":"OnSwipeRight",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 推荐",
+                      "target":{
+                        "targetType":"page",
+                        "url":"推荐.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"d1e368de42e54bbc85a176307a868a38",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"39755e96df78408098667bdda6720b6c",
+                  "label":"pm hd",
+                  "parentDynamicPanel":"1f40d34c8c7d4512ae28bcc287cd1067",
+                  "type":"dynamicPanel",
+                  "styleType":"dynamicPanel",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":10,
+                      "height":10}},
+                  "adaptiveStyles":{
+},
+                  "scrollbars":"none",
+                  "fitToContent":true,
+                  "propagate":false,
+                  "diagrams":[{
+                      "id":"781b903725294c1e8339138edf938f4e",
+                      "label":"状态1",
+                      "type":"Axure:PanelDiagram",
+                      "objects":[{
+                          "id":"098ad4e35baa44cc8cc67f2684e1d18e",
+                          "label":"",
+                          "parentDynamicPanel":"39755e96df78408098667bdda6720b6c",
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "size":{
+                              "width":640,
+                              "height":1873}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"b146c4dbf056465cb19536d74696d8ed",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"39755e96df78408098667bdda6720b6c",
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "size":{
+                                  "width":640,
+                                  "height":1873}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/曲库/u2.png"}}],
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "image":null,
+                        "imageHorizontalAlignment":"near",
+                        "imageVerticalAlignment":"near",
+                        "imageRepeat":"auto"},
+                      "adaptiveStyles":{
+}}]},
+{
+                  "id":"0835400bc912487bb1ecba6ac6b8c1fa",
+                  "label":"low",
+                  "parentDynamicPanel":"1f40d34c8c7d4512ae28bcc287cd1067",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":175,
+                      "y":1007},
+                    "size":{
+                      "width":290,
+                      "height":50}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"59a310f6f72a4a3aa27bd52ed978e8b0",
+                  "label":"tpo",
+                  "parentDynamicPanel":"1f40d34c8c7d4512ae28bcc287cd1067",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":210,
+                      "y":0},
+                    "size":{
+                      "width":220,
+                      "height":50}},
+                  "adaptiveStyles":{
+}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"6bfff397210a4888a38764c13655a7e4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":10},
+            "size":{
+              "width":640,
+              "height":128}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e824ca2fcfe949539f94cc091b6cc45a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":10,
+                  "y":10},
+                "size":{
+                  "width":640,
+                  "height":128}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/曲库/u6.png"}},
+{
+          "id":"4fc2783d242345ad9ae48324091d25e8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":60},
+            "size":{
+              "width":130,
+              "height":68}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"dfbe6a39a37840c0929f32d6bceb6eae",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":200,
+              "y":60},
+            "size":{
+              "width":120,
+              "height":68}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 推荐",
+                      "target":{
+                        "targetType":"page",
+                        "url":"推荐.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"72f779be22ed4f8cbf1d836cdc237b87",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":69},
+            "size":{
+              "width":110,
+              "height":59}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 搜索",
+                      "target":{
+                        "targetType":"page",
+                        "url":"搜索.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"679378a87c774087904f273881660097",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":180,
+              "y":270},
+            "size":{
+              "width":110,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 铃声",
+                      "target":{
+                        "targetType":"page",
+                        "url":"铃声.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1f40d34c8c7d4512ae28bcc287cd1067":{
+      "scriptId":"u0"},
+    "39755e96df78408098667bdda6720b6c":{
+      "scriptId":"u1"},
+    "098ad4e35baa44cc8cc67f2684e1d18e":{
+      "scriptId":"u2"},
+    "b146c4dbf056465cb19536d74696d8ed":{
+      "scriptId":"u3"},
+    "0835400bc912487bb1ecba6ac6b8c1fa":{
+      "scriptId":"u4"},
+    "59a310f6f72a4a3aa27bd52ed978e8b0":{
+      "scriptId":"u5"},
+    "6bfff397210a4888a38764c13655a7e4":{
+      "scriptId":"u6"},
+    "e824ca2fcfe949539f94cc091b6cc45a":{
+      "scriptId":"u7"},
+    "4fc2783d242345ad9ae48324091d25e8":{
+      "scriptId":"u8"},
+    "dfbe6a39a37840c0929f32d6bceb6eae":{
+      "scriptId":"u9"},
+    "72f779be22ed4f8cbf1d836cdc237b87":{
+      "scriptId":"u10"},
+    "679378a87c774087904f273881660097":{
+      "scriptId":"u11"}}});
